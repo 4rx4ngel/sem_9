@@ -1,0 +1,12 @@
+#spring.jpa.generate-ddl=false
+#spring.jpa.hibernate.ddl-auto=none
+server:
+  port: 8001
+
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+  application:
+    name: tasks
